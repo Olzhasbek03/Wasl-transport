@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasl Transport - Connecting Qatar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .hero-bg {
+            background-color: #042f2e; /* Dark teal/green for contrast */
+        }
+        .primary-green {
+            background-color: #059669; /* emerald-600 */
+        }
+        .primary-green-text {
+            color: #059669; /* emerald-600 */
+        }
+        .section-title {
+            @apply text-3xl font-bold text-gray-800 text-center mb-4;
+        }
+        .section-subtitle {
+            @apply text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12;
+        }
+        .screenshot {
+            @apply rounded-xl shadow-2xl border-4 border-gray-300 transform transition-transform duration-300 hover:scale-105;
+        }
+    </style>
+</head>
+<body class="text-gray-700">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold primary-green-text">Wasl Transport</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#problem" class="text-gray-600 hover:primary-green-text font-medium transition">The Problem</a>
+                <a href="#solution" class="text-gray-600 hover:primary-green-text font-medium transition">The Solution</a>
+                <a href="#app" class="text-gray-600 hover:primary-green-text font-medium transition">The App</a>
+                <a href="#vision" class="text-gray-600 hover:primary-green-text font-medium transition">Our Vision</a>
+            </nav>
+            <a href="#contact" class="hidden md:block bg-emerald-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-emerald-700 transition">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-bg text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Reimagining Mobility in Qatar.</h2>
+                <p class="text-xl md:text-2xl text-emerald-200 max-w-3xl mx-auto mb-8">Starting with an on-demand shuttle service for Education City, we're building the future of integrated public transport.</p>
+                <a href="#vision" class="bg-white text-emerald-700 font-bold px-8 py-4 rounded-lg text-lg hover:bg-gray-100 transition-transform transform hover:scale-105 inline-block">Learn About Our Vision</a>
+            </div>
+        </section>
+
+        <!-- The Problem Section -->
+        <section id="problem" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">A Disconnected Journey</h2>
+                <p class="section-subtitle">For students and staff in large communities like Qatar Foundation, daily transportation is a source of frustration, impacting productivity and well-being.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Problem Card 1 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                        <svg class="w-12 h-12 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Unpredictable Wait Times</h3>
+                        <p>A lack of real-time tracking on existing shuttles leads to uncertainty and wasted time.</p>
+                    </div>
+                    <!-- Problem Card 2 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                        <svg class="w-12 h-12 text-yellow-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Inefficient Routes</h3>
+                        <p>Fixed routes don't cater to individual needs, resulting in unnecessarily long travel times.</p>
+                    </div>
+                    <!-- Problem Card 3 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                        <svg class="w-12 h-12 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Lack of On-Demand</h3>
+                        <p>No system exists for requesting a ride precisely when and where it's needed, especially after hours.</p>
+                    </div>
+                    <!-- Problem Card 4 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                        <svg class="w-12 h-12 text-purple-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Safety Concerns</h3>
+                        <p>Walking alone at night is a significant concern that a reliable, trackable service can solve.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- The Solution Section -->
+        <section id="solution" class="py-20">
+             <div class="container mx-auto px-6">
+                <h2 class="section-title primary-green-text">The Solution: Smart, On-Demand Mobility</h2>
+                <p class="section-subtitle">Wasl Transport provides a seamless, Uber-like experience designed for the modern campus, with features built for reliability and peace of mind.</p>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2">On-Demand Rides</h3>
+                        <p>Request a shuttle from anywhere to anywhere within the service area. No more waiting for fixed-route buses.</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2">Real-Time Tracking</h3>
+                        <p>See exactly where your shuttle is on the map and get precise, dynamically updated ETAs.</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2">Smart Routing</h3>
+                        <p>Our system optimizes routes in real-time to efficiently pick up multiple passengers, ensuring the fastest trip for everyone.</p>
+                    </div>
+                     <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2">Enhanced Safety</h3>
+                        <p>Know your driver's name, vehicle details, and track your entire journey in the app for complete peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The App in Action Section -->
+        <section id="app" class="py-20 bg-emerald-700">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title text-white">The App in Action</h2>
+                <p class="section-subtitle text-emerald-200">We have a functional MVP that demonstrates the core user flow, from logging in to getting your ride confirmed.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 items-center justify-center">
+                    <!-- Screenshot 1: Login -->
+                    <div class="flex flex-col items-center">
+                         <img src="image_a37b5c.png" alt="Login Screen" class="screenshot w-64" onerror="this.onerror=null;this.src='https://placehold.co/280x600/059669/FFFFFF?text=Login+Screen';">
+                        <h4 class="text-white font-semibold mt-4 text-lg">1. Secure Login</h4>
+                    </div>
+                    <!-- Screenshot 2: Request Ride -->
+                    <div class="flex flex-col items-center">
+                        <img src="image_a37876.png" alt="Request Ride Screen" class="screenshot w-64" onerror="this.onerror=null;this.src='https://placehold.co/280x600/059669/FFFFFF?text=Request+Ride';">
+                         <h4 class="text-white font-semibold mt-4 text-lg">2. Easy Ride Request</h4>
+                    </div>
+                    <!-- Screenshot 3: Finding Ride -->
+                    <div class="flex flex-col items-center">
+                        <img src="image_a37859.png" alt="Finding Ride Screen" class="screenshot w-64" onerror="this.onerror=null;this.src='https://placehold.co/280x600/059669/FFFFFF?text=Finding+Ride';">
+                         <h4 class="text-white font-semibold mt-4 text-lg">3. Finding Your Ride</h4>
+                    </div>
+                    <!-- Screenshot 4: Ride Confirmed -->
+                    <div class="flex flex-col items-center">
+                        <img src="image_a37839.png" alt="Ride Confirmed Screen" class="screenshot w-64" onerror="this.onerror=null;this.src='https://placehold.co/280x600/059669/FFFFFF?text=Ride+Confirmed';">
+                         <h4 class="text-white font-semibold mt-4 text-lg">4. Shuttle Confirmed!</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Vision Section -->
+        <section id="vision" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Our Vision: Beyond the Campus</h2>
+                <p class="section-subtitle">Wasl Transport is the launchpad for a fully integrated public transportation platform for Qatar, creating a single source of truth for all transit.</p>
+                <!-- Timeline -->
+                <div class="relative max-w-4xl mx-auto mt-12">
+                    <div class="absolute left-1/2 w-0.5 h-full bg-emerald-200 transform -translate-x-1/2"></div>
+                    <!-- Phase 1 -->
+                    <div class="relative mb-12">
+                        <div class="absolute w-8 h-8 bg-emerald-600 rounded-full left-1/2 top-0 transform -translate-x-1/2 flex items-center justify-center text-white font-bold">1</div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 md:w-5/12 md:ml-auto md:mr-12">
+                            <h3 class="text-xl font-bold primary-green-text mb-2">Phase 1: Perfect the Model in QF</h3>
+                            <p>Refine the technology, user experience, and operational model within the controlled environment of Education City.</p>
+                        </div>
+                    </div>
+                    <!-- Phase 2 -->
+                     <div class="relative mb-12">
+                        <div class="absolute w-8 h-8 bg-emerald-600 rounded-full left-1/2 top-0 transform -translate-x-1/2 flex items-center justify-center text-white font-bold">2</div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 md:w-5/12 md:mr-auto md:ml-12 text-right md:text-left">
+                            <h3 class="text-xl font-bold primary-green-text mb-2">Phase 2: Expand to City Buses</h3>
+                            <p>Integrate with Mowasalat to provide real-time tracking for all public buses in Doha.</p>
+                        </div>
+                    </div>
+                    <!-- Phase 3 -->
+                     <div class="relative mb-12">
+                        <div class="absolute w-8 h-8 bg-emerald-600 rounded-full left-1/2 top-0 transform -translate-x-1/2 flex items-center justify-center text-white font-bold">3</div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 md:w-5/12 md:ml-auto md:mr-12">
+                            <h3 class="text-xl font-bold primary-green-text mb-2">Phase 3: Metro & Tram Integration</h3>
+                            <p>Add real-time schedules and alerts for the Doha Metro and Lusail Tram.</p>
+                        </div>
+                    </div>
+                    <!-- Phase 4 -->
+                    <div class="relative">
+                        <div class="absolute w-8 h-8 bg-emerald-600 rounded-full left-1/2 top-0 transform -translate-x-1/2 flex items-center justify-center text-white font-bold">4</div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 md:w-5/12 md:mr-auto md:ml-12 text-right md:text-left">
+                            <h3 class="text-xl font-bold primary-green-text mb-2">Phase 4: A New Taxi Paradigm</h3>
+                            <p>Launch a competing ride-hailing service fully integrated with all public transport.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section id="contact" class="bg-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Creating a Smarter, More Connected Qatar</h2>
+                <p class="section-subtitle">Our platform directly supports the goals of Qatar National Vision 2030 by building a sustainable and technologically advanced society.</p>
+                 <a href="mailto:info@wasltransport.qa" class="bg-emerald-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-emerald-700 transition-transform transform hover:scale-105 inline-block">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Wasl Transport. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
